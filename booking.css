@@ -1,0 +1,116 @@
+#copyright{
+    font-size: 14px;
+    font-style: italic;
+    color:blue;
+    text-align: center;
+
+} 
+#main{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Imagecontainer{
+   background: url('Images/mainhotel3.jpg');
+   height: auto;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 2px groove chocolate;
+}
+.Quicksearch{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+
+}
+#social{
+    text-align: right;
+}
+.slogo{
+    height: 30px;
+    width: 30px;
+}
+a{
+  text-decoration: none;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: cornsilk;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120px;
+    color: rgb(61, 250, 240);
+
+}
+#heading{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 20, 207);
+}
+.dropdown{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+}
+.dropdown >select{
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 20px;
+    color:rgb(70, 109, 107);
+
+}
+#Quickheading{
+    display: block;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#QuickSubHeading{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(122, 122, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.Tilecontainer{
+    height: 180px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border:2px solid cornflowerblue;
+    display: inline-block;
+    margin-left: 5%;
+    box-shadow: 1px 10px 15px black;
+}
+.TileImage{
+    width: 48%;
+    float: left;
+}
+.TileContent{
+    width: 48%;
+    float: left;
+}
+.ContentHeading{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: navy;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ContentSubHeading{
+    margin-left: 30px;
+    font-size: 18px;
+    color: grey;
+}
+
