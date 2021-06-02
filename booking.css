@@ -92,6 +92,9 @@ a{
     display: inline-block;
     margin-left: 5%;
     box-shadow: 1px 10px 15px black;
+} 
+.Tilecontainer:hover{
+    transform: scale(1.2);
 }
 .TileImage{
     width: 48%;
@@ -112,5 +115,48 @@ a{
     margin-left: 30px;
     font-size: 18px;
     color: grey;
+}
+
+@media screen and (min-width:400px){
+    body{
+        background-color: honeydew;
+    }
+    .Tilecontainer{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width:600px) {
+    body{
+        background-color:white;
+    }
+    .Tilecontainer{
+        width: 80%;
+    }
+}
+@media screen and (min-width:800px) {
+    body{
+        background-color: honeydew;
+    }
+    .Tilecontainer{
+        width: 40%;
+    }
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-color: honeydew;
+    }
+    .Tilecontainer{
+        width: 40%;
+    }
+}
+@media screen and (min-width:1400px) {
+    .Tilecontainer{
+        width: 40%;
+    }
+}
+.ContentSubHeading:hover{
+    color: turquoise;
 }
 

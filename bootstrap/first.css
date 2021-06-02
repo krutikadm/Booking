@@ -1,0 +1,31 @@
+#one{
+    background-color: teal;
+    height: 200px;
+}
+#two{
+    background-color:thistle;
+    height: 200px;
+}
+#three{
+    background-color:violet;
+    height: 200px;
+}
+#four{
+    background-color:tomato;
+    height: 200px;
+}
+#five{
+    background-color: turquoise;
+    height: 200px;
+}
+#six{
+    background-color:green;
+    height: 200px;
+}
+.btn-success{
+    background-color: greenyellow !important;
+}
+.glyphicon-trash{
+    font-size: 25px;
+    color: khaki;
+}
